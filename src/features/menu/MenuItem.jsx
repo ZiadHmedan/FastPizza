@@ -56,7 +56,6 @@ function MenuItem({ pizza }) {
             )}
             {!soldOut && !isInCart && (
               <div className="flex gap-2">
-                <Button type="small">details</Button>
                 <Button type="small" onClick={handleAddItem}>
                   Add to cart
                 </Button>
