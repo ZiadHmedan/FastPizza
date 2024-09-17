@@ -13,7 +13,7 @@ import Order, { loader as orderLoader } from './features/order/Order';
 // import OrderRTK from './features/order/OrderRTK';
 import AppLayout from './ui/AppLayout';
 // import CreateOrderF from './features/order/CreateOrderF';
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     element: <AppLayout />,
     errorElement: <Error />,
